@@ -1,0 +1,455 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,500&family=Rowdies:wght@300;400&display=swap');
+
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+
+
+
+}
+header {
+    background-color: #8B0000;
+    height: 95px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+.head {
+    width: 140%;
+    height: 110%;
+}
+#logo {
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    top: 2px;
+    margin-left: 5%;
+}
+#menu {
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+    margin-top: 5px;
+    color: #F5DEB3;
+}
+li {
+    float: left;
+    padding: 35 15 20 15;
+    text-decoration: none;
+    color: #F5DEB3;
+}
+li:hover {
+    background-color: #FF6347;
+    margin-top: 0.4%;
+    font-size: 110%;
+    border-radius: 8px;
+    color: #F5DEB3;
+}
+
+
+
+#imagem_fundo {
+    background: url("fundo.png");
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-size: cover;
+}
+#titulo {
+    color: rgb(252, 232, 203);
+    padding-top: 22%;
+    font-size: 70px;
+    line-height: 0.6;
+    font-family: Arial;   
+}
+#subtitulo {
+    color: rgb(192, 162, 117);
+    margin-left: 20%;
+    margin-right: 20%;
+    border-top: 3px solid rgb(192, 162, 117);
+    text-shadow: 1px 1px  rgb(190, 255, 239);
+}
+
+
+
+
+section {
+   padding: 20px;
+    float: left;
+}
+
+
+
+
+#literatura { 
+    width: 97%;
+    text-align: center;
+    color: #8B4513;
+    float: left;
+}
+#configura {
+    width: 55%;
+    text-align: left;
+    color: #8B4513;
+    float: right;
+    margin-left: 0%;
+}
+#paragra {
+    text-indent: 50px;
+    line-height: 30px;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    margin-right: 6%;
+    margin-left: 6%;
+}
+
+
+
+#dificuldades { 
+    width: 97%;
+    color: #8B4513;
+   
+}
+#items-wrapper {
+    width: 140%;
+    place-items: center;
+    float: center;
+    margin-right: 20%;
+}
+#items {
+    display: flex;
+    overflow-x: auto;
+}
+.item {
+    flex: none;
+    width: 110%;
+    height: 110%;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+.margens {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#secao {
+    width: 20%;
+    margin-right: 10%;
+    float: right;
+}
+#secaodi {
+    width: 20%;
+    margin-left: -2%;
+    float: left;
+}
+#figuras {
+    width: 50%;
+    text-align: left;
+    color: #8B4513;
+    float: left;
+    margin-left: 0%;
+}
+
+
+
+#habito { 
+    width: 97%;
+    text-align: center;
+    color: #8B4513;
+    float: left;
+}
+.item1 {
+    flex: none;
+    width: 40%;
+    height: 20%;
+    margin-left: 8%;
+}
+
+
+
+#importancia { 
+    width: 97%;
+    color: #8B4513;
+}
+.item4 {
+    flex: none;
+    width: 120%;
+    height: 40%;
+    margin-left: 8%;
+}
+.codes1 {
+    width: 100%;
+    text-align: left;
+}
+
+
+
+.cores {
+   background-color: #679473; 
+   color: #f7f7f7;
+   width: 60%;
+   text-align: center;
+   float: left;
+   border-radius: 8px;
+   margin-left: 20%;
+   margin-right: 20%;
+}
+
+
+
+.divisao {
+    background-color: #f7f7f7; 
+    width: 97%;
+    text-align: center;
+    float: left;
+    border-top: 3px solid #d25661;
+ }
+
+
+#publicando { 
+    width: 97%;
+    text-align: center;
+    color: #8B4513;
+    float: left;
+
+}
+.item2 {
+    flex: none;
+    width: 110%;
+    height: 40%;
+}
+
+#obrigada {
+    width: 97%;
+    text-align: center;
+    color: #8B4513;
+    font-weight: bold;
+}
+
+
+.destaque {
+    background-color: #F5DEB3;
+}
+.marcacao {
+    background-color: #F5DEB3;
+    float: left;
+    margin-right: 0.3%;
+    margin-left: 0%;
+    line-height: 30px;
+}
+
+
+.coluna {
+    float: left;
+    padding: 0 5%;
+    position: relative;
+}
+.colune {
+    float: left;
+    padding: 0 6.5%;
+    position: relative;
+}
+.um {
+    width: 100%;
+    margin-right: 5%;
+}
+.dois {
+    width: 40%;
+}
+.cinco {
+    width: 20%;
+}
+.tres {
+    width: 29%;
+    padding: 0 2%;
+}
+
+.justificado {
+    text-align: justify;
+}
+.centralizado {
+    text-align: center;
+}
+.central {
+    text-align: center;
+    margin-top: -7%
+}
+.topo {
+    margin-top: 0%;
+}
+.esquerda {
+    text-align: left;
+}
+
+footer {
+    background-color: #8B4513;
+    float: left;
+    width: 100%;
+    height: 70%;
+    color: #F5DEB3;
+    margin-bottom: 0%;
+}
+.imagemnos {
+    width: 60%;
+    height: 60%;
+    align-items: center;
+    border: #F5DEB3;
+    border-style: dotted;
+    border-radius: 8px;
+}
+.coruja {
+    width: 80%;
+    height: 75%;
+    align-items: center;
+
+}
+.claro {
+    background-color: #cce6d9;
+}
+
+
+
+@media all and (max-width: 800px) {
+    body {
+        padding: 0;
+    }
+
+
+    #menu {
+        visibility: hidden;
+    } 
+    header {
+        width: 98%;
+    }
+    #imagem_fundo {
+        background: url("fundo.png");
+        height: 100%;
+        width: 109%;
+        text-align: center;
+        background-size: cover;
+    }
+    #titulo {
+        color: #F5DEB3;
+        padding-top: 40%;
+        font-size: 40px;
+        line-height: 0.6;
+        font-family: Arial;
+    }
+    .coluna, .dois, .um, .tres, .quatro, #itemswrapper, #direita, #esquerda {
+         display: block;   
+         width: 100%;
+         padding: 0;
+         margin: 10px auto;
+         float: none;
+    }
+    .colune {
+        float: left;
+        padding: 0;
+        position: static;
+        margin: 10px auto;
+        width: 20%;
+        align-items: left;
+    }
+    .cinco {
+        width: 10%;
+        -text-align: left;
+    }
+    .imagemnos {
+        width: 17%;
+        height: 12%;
+        align-items: center;
+        border: darkgreen;
+        border-style: dotted;
+    }
+    footer {
+        height: 160%;
+        width: 111%;
+    }
+    
+
+    #logodiv {
+        width: 100%;
+        position: relative;
+        text-align: center;
+        padding: 0px;
+    }
+    #logo {
+        margin-left: 0px;
+        transform: translateX(-50%);
+    }
+    #itemswrapper {
+        float: center;
+        place-items: center;
+        display: block;
+        width: 5%;
+        height: 5%;
+        margin-left: -10%;
+        
+    }
+    .item {
+        width: 100%;
+        height: 100%;
+    }
+    #itemswrapper .margens {
+        padding: 0;
+        text-align: center;
+        width: 10%;
+        height: 10%;
+    }
+    #secaodi {
+        margin-left: 5%;
+        margin-right: 5%;
+        text-align: center;
+        width: 50%;
+    }
+    #secao {
+        float: left;
+        margin-left: 5%;
+        margin-right: 5%;
+        text-align: center;
+        width: 50%;
+    }
+  
+
+    #literatura, #importancia, #figuras, #habito, #configura, #dificuldade, #escrevendo, #publicando, .divisao {
+        width: 100%;
+        text-align: justify;
+    }
+    
+
+
+    #esquerda {
+        margin-top: -7%;
+    }
+    #direita {
+        margin-top: 10%;
+    }
+    .central {
+        margin-top: 0.5%;
+    }
+    #celular {
+        margin-bottom: 5%;
+    }
+    .alinhamento {
+        margin-left: 5%;
+        width: 90%;
+    }
+
+
+.cinco {
+    width: 100%;
+}
+
+.wifi, .optica {
+    width: 10%;
+    height: 5%;
+}
+
+ }
+  
